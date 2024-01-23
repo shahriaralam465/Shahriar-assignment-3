@@ -1,11 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>hockey</title>
+     <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
+     <!-- tailwind and daisy ui cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Google font manrope -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+     <style>
+          .font-manrope {
+               font-family: 'Manrope', sans-serif;
+          }
+     </style>
 </head>
-<body>
-     
+
+<body class="font-manrope">
+     <header class="md:container md:mx-auto border-2 border-solid border-lime-300">
+          <nav></nav>
+     </header>
+     <main class="md:container md:mx-auto border-2 border-solid border-lime-300">
+          <!--Clients Questions section started-->
+          <section class="mb-12">
+               <!-- Client Text -->
+               <hr class=" border-dashed border-[#13131833]">
+               <div class="py-8">
+                    <h3 class="text-4xl text-center font-extrabold mb-6">Clients Question</h3>
+                    <p class="text-base text-center ">
+                         Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br> dolor. Purus
+                         urna in sit nullam proin.
+                    </p>
+               </div>
+               <hr class="mb-12 border-t border-dashed border-[#1313181A]">
+
+               <!--Accordion container-->
+               <div
+                    class="flex justify-between items-center p-8 border border-solid border-gray-400 rounded-2xl gap-10">
+                    <!-- image -->
+                    <div class="w-2/5">
+                         <img src="./Images/11.png" class=" w-full shadow-2xl" />
+                    </div>
+                    <!-- accordian -->
+                    <div class="flex-1">
+                         <!-- accordian-1 -->
+                         <div
+                              class="collapse collapse-plus rounded-none border-b border-solid border-[#13131821] space-y-1">
+                              <input type="radio" name="my-accordion-3" checked="checked" />
+                              <div class="collapse-title text-2xl font-bold text-[#131318]">
+                                   Our Equipment
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="text-base text-[#13131899]">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quam earum fugiat ea deserunt autem, rem dolores
+                                        exercitationem. Natus, fuga dolor.</p>
+                              </div>
+                         </div>
+                         <!-- accordian-2 -->
+                         <div
+                              class="collapse collapse-plus rounded-none border-b border-solid border-[#1313181A] space-y-1">
+                              <input type="radio" name="my-accordion-3" />
+                              <div class="collapse-title text-2xl font-bold text-[#131318]">
+                                   Our Equipment
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="text-base text-[#13131899]">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quam earum fugiat ea deserunt autem, rem dolores
+                                        exercitationem. Natus, fuga dolor.</p>
+                              </div>
+                         </div>
+                         <!-- accordian-3 -->
+                         <div
+                              class="collapse collapse-plus rounded-none border-b border-solid border-[#1313181A] space-y-1">
+                              <input type="radio" name="my-accordion-3" />
+                              <div class="collapse-title text-2xl font-bold text-[#131318]">
+                                   Our Equipment
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="text-base text-[#13131899]">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quam earum fugiat ea deserunt autem, rem dolores
+                                        exercitationem. Natus, fuga dolor.</p>
+                              </div>
+                         </div>
+                         <!-- accordian-4 -->
+                         <div
+                              class="collapse collapse-plus rounded-none border-b border-solid border-[#1313181A] space-y-1">
+                              <input type="radio" name="my-accordion-3" />
+                              <div class="collapse-title text-2xl font-bold text-[#131318]">
+                                   Our Equipment
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="text-base text-[#13131899]">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quam earum fugiat ea deserunt autem, rem dolores
+                                        exercitationem. Natus, fuga dolor.</p>
+                              </div>
+                         </div>
+                         <!-- accordian-5 -->
+                         <div
+                              class="collapse collapse-plus rounded-none border-b border-solid border-[#1313181A] space-y-1">
+                              <input type="radio" name="my-accordion-3" />
+                              <div class="collapse-title text-2xl font-bold text-[#131318]">
+                                   Our Equipment
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="text-base text-[#13131899]">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quam earum fugiat ea deserunt autem, rem dolores
+                                        exercitationem. Natus, fuga dolor.</p>
+                              </div>
+                         </div>
+                         <!-- accordian-6 -->
+                         <div
+                              class="collapse collapse-plus rounded-none border-b border-solid border-[#1313181A] space-y-1">
+                              <input type="radio" name="my-accordion-3" />
+                              <div class="collapse-title text-2xl font-bold text-[#131318]">
+                                   Our Equipment
+                              </div>
+                              <div class="collapse-content">
+                                   <p class="text-base text-[#13131899]">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quam earum fugiat ea deserunt autem, rem dolores
+                                        exercitationem. Natus, fuga dolor.</p>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+          </section>
+          <!-- Get in touch section -->
+          <section>
+               <!-- Greeting Text -->
+               <hr class=" border-dashed border-[#13131833]">
+               <div class="py-8">
+                    <h3 class="text-4xl text-center font-extrabold mb-6">Get In Touch</h3>
+                    <p class="text-base text-center ">
+                         Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br> dolor. Purus
+                         urna in sit nullam proin.
+                    </p>
+               </div>
+               <hr class="mb-12 border-t border-dashed border-[#1313181A]">
+               <!--Form section-->
+               <div>
+                    <div>
+                         <!-- contact part(left-side) -->
+                         <div class="bg-[#BCED6D1A] w-[374px] h-[216px] rounded-2xl flex items-center p-8 mb-6">
+                              <div>
+                                   <img class="w-12 h-auto mb-6" src="./Images/phone.png" alt="">
+                                   <h5 class="text-base text-[#13131866] mb-3">Phone Number:</h5>
+                                   <h5 class="font-extrabold text-lg text-[#131318]">(+62) 123-321-543</h5>
+                              </div>
+                         </div>
+                         <div class="bg-[#FDDD5F1A] w-[374px] h-[216px] rounded-2xl flex items-center p-8 mb-6">
+                              <div>
+                                   <img class="w-12 h-auto mb-6" src="./Images/massage.png" alt="">
+                                   <h5 class="text-base text-[#13131866] mb-3">Email:</h5>
+                                   <h5 class="font-extrabold text-lg text-[#131318]">Hockeys@support.com</h5>
+                              </div>
+                         </div>
+                         <div class="bg-[#629CF31A] w-[374px] h-[216px] rounded-2xl flex items-center p-8">
+                              <div>
+                                   <img class="w-12 h-auto mb-6" src="./Images/location.png" alt="">
+                                   <h5 class="text-base text-[#13131866] mb-3">Location:</h5>
+                                   <h5 class="font-extrabold text-lg text-[#131318]">152/1 Mohakhali Wireless Gate</h5>
+                              </div>
+                         </div>
+
+                    </div>
+                    <div></div>
+               </div>
+          </section>
+     </main>
+     <footer>
+
+     </footer>
 </body>
+
 </html>
